@@ -16,7 +16,7 @@ app.layout = html.Div([
                    target='_blank')]),
     dcc.Dropdown(id='country-dropdown',
                  options=happiness['country'].unique(),
-                 value='United States'),
+                 value='Brazil'),
     dcc.Graph(id='happiness-graph', figure={})])
 
 
